@@ -1,0 +1,1297 @@
+@import url("./fonts.css");
+*{
+    font-family: "Manrope";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6ebf0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.section-golov .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-golov .container .but, .logo, .kart{
+    margin-top: 2.5%;
+}
+
+.section-golov .container .but{
+    margin-left: 10%;
+}
+
+.section-golov .container .but button{
+    border: none;
+    background: none;
+    margin-right: 30px;
+    font-family: 'Manrope';
+    font-size: 18px;
+}
+
+.section-golov .container .kart{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-golov .container .kart i{
+    color: black;
+    width: 17px;
+    height: 16px;
+    
+}
+
+.section-golov .container .kart .nuj{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+.section-fit .container{
+    display: flex;
+}
+
+.section-fit .container .card{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.section-fit .container .card img{
+    width: 100%;
+}
+
+.section-fit .container .card .text{
+    font-family: 'Manrope';
+    font-size: 39px;
+    margin-top: 60px;
+}
+
+.section-fit .container .card .text2{
+    font-size: 18px;
+    font-family: 'Manrope';
+    margin-top: 15px;
+}
+
+.section-fit .container .card .knop{
+    margin-top: 10%;
+}
+
+.section-fit .container .card .knop button{
+    background: #3586ff;
+    border: 1px solid white;
+    width: 35%;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.section-kurs{
+    margin-top: 160px;
+}
+
+.section-kurs .container .txt{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-kurs .container .foto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.section-kurs .container .knop{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.section-kurs .container .knop button{
+    background: #3586ff;
+    border: 1px solid white;
+    width: 18%;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+.section-vnut{
+    margin-top: 160px;
+}
+
+.section-vnut .container .foto {
+    border-radius: 20px;
+    background: url(../img/5.jpg);
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+
+}
+
+.section-vnut .container .foto .t1 h2{
+    font-size: 42px;
+    padding-top: 150px;
+}
+
+.section-vnut .container .foto .t2{
+    width: 60%;
+    margin-top: 15px;
+}
+
+.section-vnut .container .foto .t2 p{
+    font-size: 18px;
+}
+
+.section-vnut .container .foto .knop{
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.section-vnut .container .foto .knop button{
+    background: #3586ff;
+    border: 1px solid white;
+    width: 20%;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.section-vnut .container .foto .knop, .t1, .t2{
+    padding-left: 107px;
+}
+
+
+
+
+
+
+
+.section-tet{
+    margin-top: 12%;
+}
+
+.section-tet .container{
+    display: flex;
+}
+
+.section-tet .container .card{
+    width: 50%;
+}
+
+.section-tet .container .card .foto img{
+    border-radius: 15px;
+    width: 95%;
+}
+
+.section-tet .container .card .text p{
+    font-family: 'Manrope';
+    font-size: 16px;
+    margin-bottom: -1%;
+}
+
+.section-tet .container .card .text h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.section-tet .container .card .text h3{
+    font-family: "Manrope";
+    font-size: 18px;
+    margin-bottom: 9%;
+}
+
+.section-tet .container .card .inf{
+    display: flex;
+}
+
+.section-tet .container .card .inf .r{
+    width: 50%;
+    margin-bottom: 6%;
+}
+
+.section-tet .container .card .inf .r .nuj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f4f8;
+    border-radius: 10px;
+    padding: 4%;
+    height: 50px;
+}
+
+.section-tet .container .card .inf .r:nth-child(1) .nuj:nth-child(1){
+    margin-right: 10%;
+    
+}
+
+
+
+.section-tet .container .card .inf .r .nuj p{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-tet .container .card .inf .r .nuj .fa{
+    display: flex;
+    align-items: baseline;
+}
+
+.section-tet .container .card .inf .r .nuj .fa p{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-tet .container .card .cen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-tet .container .card .cen .nuj{
+    display: flex;
+    align-items: baseline;
+}
+
+.section-tet .container .card .cen .nuj h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.section-tet .container .card .cen .nuj i{
+    font-size: 37px;
+}
+
+.section-tet .container .card .cen .knop button{
+    background: #3586ff;
+    border: 1px solid white;
+    width: 260px;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.block2 .container .infofit .perecluch{
+    width: 100%;
+    overflow: hidden;
+
+}
+.block2 .container .infofit .perecluch .line{
+    width: 300%;
+    display: flex;
+    
+    
+    
+}
+.block2 .container .infofit .perecluch .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    
+}
+.block2 .container .infofit .perecluch .line .text .photo{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+    
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    
+}
+#input1:checked ~ .perecluch .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color: #3586ff;
+    color: white;
+    
+}
+.block2 .container{ 
+    margin-top: 60px;
+}
+.block2 .container .infofit input{
+    display: none;
+}
+
+.block2 .container .infofit label{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    margin-right: 40px;
+}
+
+.block2 .container .infofit .perecluch{
+    margin-top: 40px;
+}
+.block2 .container .infofit .perecluch .line .text h3{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+}
+.block2 .container .infofit .perecluch .line .photo h2{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.block2 .container .infofit .perecluch .line .photo h4{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.block2 .container .infofit .perecluch .line .photo .photos{
+    width: 260px;
+    height: 274px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.block2 .container .infofit .perecluch .line .photo .photos .frst{
+    background: url(../img/7.png);
+    width: 109px;
+    height: 190px;
+
+}
+.block2 .container .infofit .perecluch .line .photo .photos .scnd{
+    background: url(../img/8.png);
+    width: 160px;
+    height: 190px;
+    padding: 0 ;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .thd{
+    background: url(../img/9.png);
+    width: 196px;
+    height: 190px;
+}
+
+.block2 .container .infofit .perecluch .line .text1{
+    opacity: 0;
+    transition: .5s;
+}
+.block2 .container .infofit .perecluch .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+.block2 .container .infofit .perecluch .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+
+.block2 .container .infofit .perecluch .line .photo .photos .frst1{
+    background: url(../img/гантели.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .scnd1{
+    background: url(../img/велдо.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .thd1{
+    background: url(../img/бокс.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .frst2{
+    background: url(../img/качество.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .scnd2{
+    background: url(../img/прогресс.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+.block2 .container .infofit .perecluch .line .photo .photos .thd2{
+    background: url(../img/img_203330.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-plat .container{
+    display: flex;
+}
+
+.section-plat .container .card{
+    width: 49%;
+    margin-top: 100px;
+}
+
+.section-plat .container .card img{
+    border-radius: 16px;
+    margin-left: 2%;
+    width: 100%;
+}
+
+.section-plat .container .card .text{
+    font-family: 'Manrope';
+    font-size: 39px;
+}
+
+.section-plat .container .card .text2{
+    font-size: 18px;
+    font-family: 'Manrope';
+    margin-top: 15px;
+    padding: none;
+}
+
+.section-plat .container .card .knop{
+    margin-top: 60px;
+}
+
+.section-plat .container .card .knop button{
+    background: #3586ff;
+    border: 1px solid white;
+    width: 35%;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-rab{
+    margin-top: 8%;
+}
+
+.section-rab .container .nuj{
+    display: flex;
+}
+
+.section-rab .container .nuj .card{
+    width: 23%;
+    margin-right: 4%;
+}
+
+.section-rab .container .zag{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.section-rab .container .zag h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+}
+
+.section-rab .container .nuj .card .num{
+    background: #3586ff;
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 6%;
+    border: 1px solid white;
+}
+
+.section-rab .container .nuj .card h2{
+    font-family: 'Manrope';
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.section-rab .container .nuj .card p{
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-plan{
+    margin-top: 15%;
+}
+
+.section-plan .container{
+    display: flex;
+    justify-content: center;
+}
+
+.section-plan .container .nuj{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-plan .container .nuj .zag{
+    display: flex;
+    justify-content: center;
+}
+
+.section-plan .container .nuj .zag h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    margin-bottom: 3%;
+}
+
+.section-plan .container .nuj .txt{
+    text-align: center;
+}
+
+.section-plan .container .nuj .txt p{
+    font-family: 'Manrope';
+    font-size: 18px;
+    margin-bottom: 8%;
+    
+}
+
+.section-plan .container .nuj .inp .it{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-plan .container .nuj .inp .it .vv{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.section-plan .container .nuj .inp .it .vv p{
+    font-family: 'Manrope';
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+.section-plan .container .nuj .inp .it .vv input{
+    width: 90%;
+    height: 52px;
+    border: 1px solid #dadee2;
+    background: #e6ebf0;
+}
+
+.section-plan .container .nuj .inp .vv1{
+    margin-bottom: 4%;
+}
+
+.section-plan .container .nuj .inp .vv1 input{
+    height: 52px;
+    width: 95%;
+    border: 1px solid #dadee2;
+    background: #e6ebf0;
+}
+
+.section-plan .container .nuj .inp .vv1 p{
+    font-family: 'Manrope';
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.section-plan .container .nuj .klik p{
+    font-family: 'Manrope';
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.section-plan .container .nuj .klik label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    margin-right: 2%;
+}
+
+.section-plan .container .nuj .klik input,label{
+    margin-bottom: 4%;
+}
+
+.section-plan .container .nuj .gal label{
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+.section-plan .container .nuj .gal label, input{
+    margin-bottom: 8%;
+}
+
+.section-plan .container .nuj .knop button{
+    background: #3586ff;
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 52px;
+    margin-bottom: 6%;
+    border: 1px solid white;
+}
+
+.section-plan .container .nuj .knop{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.section-kon{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.section-kon .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-kon .container .text, .text2 p{
+    font-family: 'Manrope';
+    font-size: 12px;
+}
+
+.section-kon .container .svg{
+    width: 11%;
+}
+
+.section-kon .container .svg svg{
+    margin-right: 15%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+
+    
+
+    .section-fit .container .card .text h2{
+        font-size: 37px;
+    }
+
+    .section-tet .container .card .text h2{
+        font-size: 40px;
+    }
+
+    .section-tet .container .card .text h3{
+        font-size: 15px;
+    }
+
+    .block2 .container .perecluch .line .text .photo .photos{
+        width: 220px;
+    }
+    .block2 .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .block2 .container .perecluch .line .text h3{
+        width: calc(100%/4);
+        margin-right: 10px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+
+    .section-golov .container .but button{
+        margin-right: 10px;
+    }
+
+    .section-golov .container{
+        margin: 0 1%;
+    }
+
+    .section-golov .container .kart i{
+        color: black;
+        width: 19px;
+        height: 12px;
+        
+    }
+    
+    .section-golov .container .kart .nuj{
+        background-color: white;
+        padding: 5px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .section-fit .container{
+        margin: 0 1%;
+    }
+
+    .section-vnut .container .foto{
+        width: 100%;
+        margin-left: 0;
+        background-position: -190px 0;
+    }
+
+    .section-vnut .container .foto .t1 h2{
+        font-size: 34px;
+    }
+
+    .section-vnut .container .foto .t2 p{
+        font-size: 15px;
+    }
+
+    .section-vnut .container .foto .knop button{
+        font-size: 13px;
+    }
+
+    .section-vnut .container .foto .knop, .t1, .t2{
+        padding-left: 5%;
+    }
+
+    .section-tet .container{
+        padding: 0 1%;
+    }
+
+    .section-tet .container .card .cen .knop button{
+        width: 200px;
+    }
+
+    .block2 .container .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .block2 .container .infofit label{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .block2 .container .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .block2 .container .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .block2 .container .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .block2 .container .infofit .perecluch .line .text .photo{
+        width: 100%;
+    }
+
+    .section-plat .container .card .text h2{
+        font-size: 35px;
+    }
+
+    .section-kon .container .text, .text2 p{
+        font-size: 11px;
+
+    }
+
+    .section-plat .container .card .knop button{
+        font-size: 14px;
+    }
+
+    .section-plat .container .card .knop{
+        margin-top: 8%;
+    }
+
+    .section-rab .container .zag h2{
+        font-size: 35px;
+    }
+
+    .section-rab .container .nuj .card p{
+        font-size: 14px;
+    }
+
+    .section-rab .container .nuj .card p{
+        font-size: 12px;
+    }
+
+    .section-rab .container .nuj .card h2{
+        font-size: 14px
+    }
+
+    .section-kon .container .svg{
+        width: 17%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+
+    .section-golov .container .but button{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .section-golov .container .kart{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-golov .container .kart i{
+        color: black;
+        width: 19px;
+        height: 8px;
+        font-size: 15px;
+        
+        
+    }
+
+    .section-golov .container .kart .nuj {
+        background-color: white;
+        margin: 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .section-golov .container .kart{
+        width: 20%;
+
+    }
+
+    .section-fit .container .card .text h2{
+        font-size: 28px;
+    }
+
+    .section-fit .container .card{
+        margin-top: 10%;
+    }
+
+    .section-fit .container .card .knop button{
+        font-size: 12px;
+        height: 40px;
+        m
+    }
+
+    .section-kon .container .text, .text2 p{
+        font-size: 10px;
+    }
+
+    .section-fit .container .card .knop{
+        margin-top: 7%;
+    }
+
+    .section-kurs .container .foto img{
+        width: 33%;
+    }
+
+    .section-kurs .container .txt h2{
+        font-size: 30px;
+    }
+
+    .section-kurs .container .knop button{
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .section-vnut .container .foto {
+        width: 100%;
+        margin-left: 0;
+        background-position: -230px 0;
+    }
+
+    .section-vnut .container .foto .t1 h2{
+        font-size: 26px;
+    }
+
+    .section-vnut .container .foto .t2 p{
+        font-size: 12px;
+    }
+
+    .section-vnut .container .foto .knop button{
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .section-vnut .container .foto .knop{
+        margin-top: 5%;
+    }
+
+    .section-tet .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-tet .container .card{
+        width: 100%;
+    }
+
+    .section-tet .container .card .inf .r .nuj{
+        width: 90%;
+    }
+
+    
+    .block2 .container .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .block2 .container .infofit label{
+        margin-right: 0px;
+        
+    }
+    .block2 .container .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .block2 .container .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .block2 .container .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .block2 .container .infofit .perecluch .line .text .photo{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-plat .container .card .text h2{
+        font-size: 25px;
+    }
+
+    .section-kon .container .text, .text2 p{
+        font-size: 8px;
+    }
+
+    .section-plat .container .card .knop button{
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .section-rab .container .nuj .card p{
+        font-size: 10px;
+    }
+
+    .section-plan .container .nuj .knop button{
+        height: 40px;
+    }
+
+    .section-kon .container .svg{
+        width: 22%;
+    }
+
+    .section-rab .container .nuj{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width: 98%;
+    }
+
+    .section-golov .container .but{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-fit .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-fit .container .card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-golov .container .kart{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-fit .container .card .knop button{
+        width: 110%;
+    }
+
+    .section-vnut .container .foto .t1 h2{
+        font-size: 22px;
+    }
+
+    .section-vnut .container .foto .t2 p{
+        font-size: 10px;
+    }
+
+    .section-vnut .container .foto{
+        background-position: -270px 0;
+    }
+
+    .section-plat .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-plat .container .card{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-plat .container .card .knop button{
+        width: 110%;
+    }
+
+    .section-rab .container .nuj .card{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-plan .container .nuj .zag h2{
+        font-size: 30px;
+    }
+
+    .section-plan .container .nuj .txt p{
+        font-size: 15px;
+    }
+
+    .section-plan .container .nuj .knop button{
+        width: 60%;
+        margin-top: 10%;
+    }
+
+    .section-plan .container .nuj .klik{
+        margin-bottom: 10%;
+    }
+
+    .section-kon .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-kon .container .svg{
+        width: 35%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width: 98%;
+    }
+
+    .section-kurs .container .knop button{
+        width: 25%;
+    }
+
+    .section-vnut .container .foto .knop button{
+        width: 30%;
+    }
+
+    .section-vnut .container .foto .t1 h2{
+        font-size: 18px;
+    }
+
+    .section-vnut .container .foto .t2 p{
+        font-size: 8px;
+    }
+
+    .section-vnut .container .foto{
+        background-position: -340px 0;
+    }
+
+    .section-tet .container .card .cen .knop button{
+        width: 150px;
+    }
+    .section-tet .container .card .inf .r .nuj .fa p{
+        font-size: 11px;
+    }
+
+    .section-tet .container .card .inf .r .nuj p{
+        font-size: 11px;
+    }
+
+    .section-tet .container .card .inf .r .nuj{
+        width: 97%;
+    }
+
+    .section-tet .container .card .cen .nuj h2{
+        font-size: 35px;
+    }
+
+    .section-tet .container .card .cen .nuj i{
+        font-size: 32px;
+    }
+
+    .section-rab .container .zag h2{
+        text-align: center;
+    }
+
+    .section-plan .container .nuj .txt p{
+        font-size: 12px;
+    }
+
+    .section-plan .container .nuj .klik label{
+        font-size: 12px;
+    }
+
+    .section-plan .container .nuj .gal label, input{
+        font-size: 12px;
+    }
+
+    .section-kon .container .svg{
+        display: flex;
+        
+    }
+
+    .section-plat .container .card{
+        text-align: center;
+    }
+
+    .section-fit .container .card{
+        text-align: center;
+    }
+
+    .section-tet .container .card .foto img{
+        width: 100%;
+    }
+
+}
